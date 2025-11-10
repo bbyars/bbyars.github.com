@@ -1,0 +1,124 @@
+/**
+ * 7. Widgets
+ * ----------------------------------------------------------------------------
+ */
+ .widget {
+  font-size: 0.88889rem;
+  margin-bottom: 3.75em;
+}
+
+.widget-title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 0 0 2.14285em;
+  text-transform: uppercase;
+}
+
+.widget-title:after {
+  background: $color-accent;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 15px 0 0;
+  width: 60px;
+}
+
+.widget label {
+  color: #fff;
+  font-size: 0.875em;
+}
+
+.widget input,
+.widget select,
+.widget textarea {
+  border: 0;
+}
+
+.widget button,
+.widget input[type="submit"],
+.widget input[type="button"],
+.widget input[type="reset"],
+.widget a.button {
+  padding: 8px 20px;
+}
+
+.widget a:hover {
+  color: $gray-light;
+}
+
+.widget.site-navigation .menu {
+  list-style: none;
+  padding: 0;
+}
+
+.widget.site-navigation .menu-item {
+  font-size: 1rem;
+  margin: 0 0 0.5em;
+}
+
+.widget.site-navigation a {
+  color: #fff;
+}
+
+.widget.site-navigation a:hover {
+  color: $color-accent;
+}
+
+.widget-recent-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.widget-recent-posts li {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 0.9375em;
+}
+
+.widget-recent-posts .post-header {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-bottom: 0.9375em;
+}
+
+.widget-recent-posts .post-meta {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 0.5em;
+}
+
+.widget-recent-posts .post-title {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.widget-recent-posts .post-thumbnail {
+  -ms-flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: 0 0 0.9375em 30px;
+  width: 90px;
+}
+
+.widget-tagcloud a {
+  border: 1px solid $gray-dark;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 10px 0.75em 0;
+  padding: 0.4em 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.widget-tagcloud a:hover {
+  border-color: $color-accent;
+  color: $color-accent;
+}

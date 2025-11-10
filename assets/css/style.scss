@@ -1,0 +1,40 @@
+---
+# Only the essential Sass file needs front matter. The dashes are enough.
+---
+
+/**
+ * Horace 1.2.2
+ * By Just Good Themes
+ */
+/**
+ * Table of Contents
+ * ----------------------------------------------------------------------------
+ * 0. Icons
+ * 1. Reset
+ * 2. General
+ * 3. Structure
+ * 4. Site Header
+ * 5. Content
+ *   5.1 Posts and Pages
+ *   5.2 Comments
+ *   5.3 Paging Navigation
+ * 6. Sidebar
+ * 7. Widgets
+ * 8. Site Footer
+ * 9. Media Queries
+*/
+
+// Import variables
+@import "variables";
+@import "reset";
+@import "general";
+@import "structure";
+@import "header";
+@import "posts-pages";
+@import "comments";
+@import "pagination";
+@import "sidebar";
+@import "widgets";
+@import "footer";
+@import "media-queries";
+

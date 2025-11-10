@@ -1,0 +1,62 @@
+<p class="social-links">
+    {% if site.twitter %}
+    <a href="https://twitter.com/{{ site.twitter }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/twitter.svg %}
+        <span class="screen-reader-text">Twitter</span>
+    </a>
+    {% endif %}
+    {% if site.facebook %}
+    <a href="https://www.facebook.com/{{ site.facebook }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/facebook.svg %}
+        <span class="screen-reader-text">Facebook</span>
+    </a>
+    {% endif %}
+    {% if site.github %}
+    <a href="https://github.com/{{ site.github }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/github.svg %}
+        <span class="screen-reader-text">GitHub</span>
+    </a>
+    {% endif %}
+    {% if site.codepen %}
+    <a href="https://codepen.io/{{ site.codepen }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/codepen.svg %}
+        <span class="screen-reader-text">CodePen</span>
+    </a>
+    {% endif %}
+    {% if site.dribbble %}
+    <a href="https://dribbble.com/{{ site.dribbble }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/dribbble.svg %}
+        <span class="screen-reader-text">dribbble</span>
+    </a>
+    {% endif %}
+    {% if site.medium %}
+    <a href="https://medium.com/{{ site.medium }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/medium.svg %}
+        <span class="screen-reader-text">medium</span>
+    </a>
+    {% endif %}
+    {% if site.instagram %}
+    <a href="https://www.instagram.com/{{ site.instagram }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/instagram.svg %}
+        <span class="screen-reader-text">Instagram</span>
+    </a>
+    {% endif %}
+    {% if site.pinterest %}
+    <a href="https://www.pinterest.com/{{ site.pinterest }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/pinterest.svg %}
+        <span class="screen-reader-text">Pinterest</span>
+    </a>
+    {% endif %}
+    {% if site.linkedin %}
+    <a href="https://www.linkedin.com/in/{{ site.linkedin }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/linkedin.svg %}
+        <span class="screen-reader-text">Linkedin</span>
+    </a>
+    {% endif %}
+    {% if site.producthunt %}
+    <a href="https://www.producthunt.com/{{ site.producthunt }}" class="btn btn-icon btn-secondary" target="_blank" rel="noopener">
+        {% include icons/product-hunt.svg %}
+        <span class="screen-reader-text">ProductHunt</span>
+    </a>
+    {% endif %}
+</p>
