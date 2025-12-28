@@ -34,17 +34,14 @@
 
         {% if page.url == "/" %}
 
-        <div class="hero-wrap">
-            {% if site.cover_image %}
-            <div class="hero-wrap-bg" style="background-image: url({{ site.baseurl }}/assets/images/{{ site.cover_image }})"></div>
-            {% endif %}
+        <div class="hero-wrap hero-wrap--minimal">
             {% include header.html %}
-            <section class="hero outer fadeInDown delay_075s">
+            <section class="hero outer">
                 <div class="inner">
                     {% include author.html %}
-                </div><!-- .inner -->
-            </section><!-- .hero -->
-        </div><!-- .hero-wrap -->
+                </div>
+            </section>
+        </div>
 
         {% else %}
         {% include header.html %}
@@ -57,20 +54,11 @@
 
         <footer id="colophon" class="site-footer outer">
             <div class="site-footer-inside">
-                {% include social-links.html %}
                 <p class="site-info">
-                    <a href="#">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} . Horace theme by
-                    <a target="_blank" href="https://justgoodthemes.com/">JustGoodThemes</a>. <br />
-                    Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>.
+                    &copy; {{ site.time | date: '%Y' }} {{ site.name }}
                 </p>
-                <p class="back-to-top">
-                    <a id="top-button" class="top-button" href="#page">
-                        <span class="icon-arrow-up" aria-hidden="true"></span>
-                        <span class="screen-reader-text">Back to top</span>
-                    </a>
-                </p>
-            </div><!-- .site-footer-inside -->
-        </footer><!-- .site-footer -->
+            </div>
+        </footer>
     </div><!-- .site -->
     <div id="site-overlay" class="site-overlay"></div>
     {% include sidebar.html %}

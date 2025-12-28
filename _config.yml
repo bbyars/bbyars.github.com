@@ -16,8 +16,7 @@ ga_analytics:
 author:
   name: "Brandon Byars"
   image: "authorimage.jpg"
-  greetings: "Hi there!"
-  description: "My name is Brandon Byars."
+  book_title: "Mayan Ruins"
   bio: "Brandon's bio"
 
 # Contact form setings
@@ -31,12 +30,12 @@ email: brandon.byars+author@gmail.com
 
 # Navigation
 navigation:
-  - text: About
-    url: /about
-  - text: Archive
-    url: /tags
-  - text: Style Guide
-    url: /style-guide
+  - text: Mayan Ruins
+    url: /mayan-ruins
+  - text: Bio
+    url: /bio
+  - text: Contact
+    url: /contact
 
 # Required Plugins
 plugins_dir:

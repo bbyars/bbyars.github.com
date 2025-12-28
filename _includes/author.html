@@ -1,6 +1,11 @@
 {% if site.author %}
-    <p class="hero-avatar"><img src="{{ site.baseurl }}/assets/images/{{ site.author.image }}" alt="{{ site.author.name }}'s Picture" class="avatar" /></p>
-    <h2 class="hero-title">{{ site.author.greetings }}</h2>
-    <p class="hero-description">{{ site.author.description }}</p>
+<div class="hero-content">
+    <p class="hero-avatar">
+        <img src="{{ site.baseurl }}/assets/images/{{ site.author.image }}" alt="{{ site.author.name }}'s Picture" class="avatar" />
+    </p>
+    <h1 class="hero-name">{{ site.author.name }}</h1>
+    {% if site.author.book_title %}
+    <p class="hero-book-title">{{ site.author.book_title }}</p>
+    {% endif %}
+</div>
 {% endif %}
-{% include social-links.html %}

@@ -3,32 +3,17 @@ layout: default
 title: Home
 ---
 
-{% if page.url == "/" %}
-<!-- Featured-->
-<div class="featured-posts outer">
-    {% for post in site.posts %}
-        {% if post.featured == true %}
-            {% include featuredbox.html %}
-        {% endif %}
-    {% endfor %}
-</div>
-{% endif %}
-<!-- Posts Index -->
-<div class="outer">
-    {% if page.url == "/" %}
-    <div class="post-feed-title inner">Latest Articles</div>
-    {% endif %}
-    <div class="post-feed inner-wide">
-        {% for post in paginator.posts %}
-            {% include postbox.html %}
-        {% endfor %}
+<div class="outer recent-posts-section">
+    <div class="inner">
+        <h2 class="section-title">Recent Posts</h2>
+        <ul class="recent-posts-list">
+            {% for post in site.posts limit:3 %}
+            <li class="recent-post-item">
+                <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+                <span class="post-date">{{ post.date | date: "%B %Y" }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="/tags" class="all-posts-link">View all posts</a>
     </div>
 </div>
-<!-- Pagination-->
-{% include pagination.html %}
-{% if site.mailchimp_url %}
-    {% include newsletter-box.html %}
-{% endif %}
-
-
-
