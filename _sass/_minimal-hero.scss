@@ -189,3 +189,29 @@
     }
   }
 }
+
+// Bio page - floated image
+.bio-page {
+  .post-thumbnail {
+    float: left;
+    margin: 0 2em 1em 0;
+    max-width: 250px;
+  }
+
+  .post-thumbnail img {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .post-content {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bio-page .post-thumbnail {
+    float: none;
+    max-width: 200px;
+    margin: 0 auto 1.5em;
+  }
+}

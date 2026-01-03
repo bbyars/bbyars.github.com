@@ -33,10 +33,10 @@ thankyou_page_description: "Your message has been successfully sent."
 
 # Navigation
 navigation:
+  - text: Mayan Ruins 
+    url: /mayan-ruins
   - text: Bio
     url: /bio
-  - text: Mayan Ruins
-    url: /mayan-ruins
   - text: Contact
     url: /contact
 
