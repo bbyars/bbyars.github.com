@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Brandon Byars</title>
-    <description>Brandon Byars&apos;s author site</description>
+    <title>Brandon Hastings</title>
+    <description>Brandon Hastings&apos;s author site</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Dec 2025 17:51:08 -0600</pubDate>
-    <lastBuildDate>Mon, 29 Dec 2025 17:51:08 -0600</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2026 15:30:41 -0600</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 15:30:41 -0600</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>

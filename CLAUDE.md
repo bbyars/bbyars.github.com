@@ -41,6 +41,6 @@ bundle exec jekyll build
 ## Configuration
 
 Site settings in `_config.yml`:
-- `production_url`: https://brandon-byars.com
+- `production_url`: https://brandon-hastings.com
 - Pagination: 5 posts per page
 - Plugins: jekyll-paginate, jekyll-seo-tag, jekyll-sitemap
