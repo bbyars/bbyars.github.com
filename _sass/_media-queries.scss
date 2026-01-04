@@ -177,6 +177,10 @@
   .sidebar .site-navigation {
     display: block;
   }
+
+  .site-header .sidebar-toggle {
+    display: block;
+  }
 }
 @media only screen and (max-width: 600px) {
   html {

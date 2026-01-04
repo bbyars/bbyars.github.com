@@ -462,6 +462,33 @@ img {
     transform: rotate(-45deg);
 }
 
+.icon-menu {
+    background: currentColor;
+    color: inherit;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+}
+
+.icon-menu:before,
+.icon-menu:after {
+    background: currentColor;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.icon-menu:before {
+    top: -6px;
+}
+
+.icon-menu:after {
+    bottom: -6px;
+}
+
 .icon-arrow-left,
 .icon-arrow-right,
 .icon-arrow-up,
