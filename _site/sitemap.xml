@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/bio</loc>
+<loc>http://localhost:4000/bio</loc>
 </url>
 <url>
-<loc>/contact</loc>
+<loc>http://localhost:4000/contact</loc>
 </url>
 <url>
-<loc>/tags/</loc>
+<loc>http://localhost:4000/tags/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>/mayan-ruins</loc>
+<loc>http://localhost:4000/mayan-ruins</loc>
 </url>
 <url>
-<loc>/style-guide</loc>
+<loc>http://localhost:4000/style-guide</loc>
 </url>
 <url>
-<loc>/thank-you</loc>
+<loc>http://localhost:4000/thank-you</loc>
 </url>
 </urlset>

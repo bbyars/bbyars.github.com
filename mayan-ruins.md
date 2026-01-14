@@ -24,7 +24,7 @@ permalink: /mayan-ruins
     <div class="buy-links">
       <h3>Available Now</h3>
       <ul>
-        <li><a href="#" class="btn">Amazon</a></li>
+        <li><a href="https://www.amazon.com/Mayan-Ruins-Brandon-Hastings-ebook/dp/B0GGJ953MC/ref=sr_1_1?crid=3R3F9PC495D31&dib=eyJ2IjoiMSJ9.fPqMuz9iBKhZjSvqIKkGVdV24Xf92AVOFDChjgIrUytNgvImKs9wIKQTAlh3KrZI5hQ19hLTCzssisbYYzdgwMmVaJl6PwjpJ0K2kF1yKHtf-50TjHbaY6ZqI5ANYkctHgd_BKkU_9X-WD46UxboWQXW9leLHyVCGJ9TUtqZxk88Xcakn1SlvAaYN_8D9nS1jFMEkeDiyhAMJ7sDmBS1Iml_2BnUVT8OdoPhxp4fkUY.StUgcnv4ztgWwEjZjrnjCEsNPapO-dMY4DVnTnRd4cI&dib_tag=se&keywords=brandon+hastings&qid=1768396423&sprefix=brandon+hasting%2Caps%2C235&sr=8-1" class="btn">Amazon</a></li>
       </ul>
     </div>
   </div>
